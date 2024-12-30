@@ -10,7 +10,7 @@ pip install python-ercaspayng
 
 ## Usage
 ```python
-from ercaspay import ErcasPay
+from Ercasng.ercaspay import ErcasPay
 
 ## Do not hardcode your secret key inside your code
 
