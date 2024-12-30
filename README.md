@@ -2,10 +2,10 @@
 A python package that simplifies https://docs.ercaspay.com/ payment api integration into your python projects.
 
 ## Installation
-
+This package requires the request library to be installed
 ```bash
-pip install requests
-pip install python-ercaspayng
+pip install requests==2.32.3
+pip install ercaspayng
 ```
 
 ## Usage
