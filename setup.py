@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ercaspayng",
+    name="ercaspay_ng",
     version='1.0.0',
     author='Amaechi Ugwu',
     author_email='amaechijude178@gmail.com',

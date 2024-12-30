@@ -5,7 +5,7 @@ A python package that simplifies https://docs.ercaspay.com/ payment api integrat
 This package requires the request library to be installed
 ```bash
 pip install requests==2.32.3
-pip install ercaspayng
+pip install ercaspay-ng
 ```
 
 ## Usage
