@@ -13,7 +13,8 @@ pip install ercas_pay
 from ercaspay import ErcasPay
 
 ## Do not hardcode your secret key inside your code
-## Instanstiate ErcasPay Object
+
+## Instanstiate ErcasPay Object with your ercasPay secret key
 
 ercas_object = ErcasPay(ercas_pay_secret_key: str)
 
@@ -61,6 +62,8 @@ def initialize_transaction(request):
                 "checkoutUrl": "https://sandbox-checkout.ercaspay.com/ERCS|20231113082706|1699860426792"
             }
         }
+
+        ## The Checkout URL is required and should be returned to and loaded from the frontend to complete the payment checkout
 
     ## Handle Unsuccessful Response
     return {

@@ -1,6 +1,5 @@
 import requests
 
-
 class Ercaspay:
     def __init__(self, ercaspay_secret_key: str) -> None:
         self.sk = ercaspay_secret_key
@@ -180,13 +179,3 @@ class Ercaspay:
                 "tx_body": response["responseBody"]
             }
         return output
-
-    
-
-# sk = config("ERCASPAY_SECRET_KEY")
-# setup_fro = Ercaspay(sk)
-# # pay_ref = "zghfvhkhhjhblnjkhuvcfkjb"
-# # res = setup_fro.Initiate_transaction(20.00,pay_ref, "Amaechi", "amaechi@gmail.com", "08167899023")
-# res, opt = setup_fro.verify_transaction("ERCS|20241230155044|1735570244906")
-# print(f"{opt}\n")
-# pprint.pprint(res)
