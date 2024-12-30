@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="python_ercaspay_ng",
-    version='0.1',
+    name="ercaspayng",
+    version='1.0.0',
     author='Amaechi Ugwu',
     author_email='amaechijude178@gmail.com',
     description='This package simplifies ercasng payment processing in python',

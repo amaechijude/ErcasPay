@@ -5,7 +5,7 @@ A python package that simplifies https://docs.ercaspay.com/ payment api integrat
 
 ```bash
 pip install requests
-pip install ercas_pay
+pip install python-ercaspayng
 ```
 
 ## Usage
