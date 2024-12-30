@@ -10,10 +10,10 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/amaechijude/ErcasPay',
     packages=find_packages(),
-    classifiers= [
-        " Programming Language :: Python :: 3",
-        "Licence :: OSI Approved :: MIT Licence",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ],
+        ],
     python_requires=">=3.8"
 )
